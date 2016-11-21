@@ -262,7 +262,7 @@ Check [the HAProxy configuration manual](http://cbonte.github.io/haproxy-dconv/c
 	  target_num_containers: 2
 	  environment:
             - TCP_PORTS=443
-	    - EXCLUDE_PORTS=22
+            - EXCLUDE_PORTS=22
 	lb:
 	  image: 'dockercloud/haproxy:latest'
 	  links:
